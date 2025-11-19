@@ -1,0 +1,14 @@
+cat("""
+titel: "Niederschlagsmessung im Burgwald"
+authors: ["Doris Eickhoff", "Tobias Borzyk", "Ellen Beck", "Leonie Birnkammer"]
+date_started: 01.10.2025
+
+source_datasets:
+  DGM1
+  ATKIS Basis DLM
+  DOM1
+  
+Forschungsfrage: "Design eines physiographisch stratifizierten Niederschlagsmessnetzwerk im Burgwald.
+Das Ziel ist, den Niederschlag abhängig von Landbedeckung und Höhenstufen darzustellen.
+Dafür werden bis zu 20 Stationen genutzt."
+""", file = here::here ("metadata", "project.info.yaml"))
